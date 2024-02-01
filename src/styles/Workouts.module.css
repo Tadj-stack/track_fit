@@ -1,92 +1,94 @@
-/* Workouts.module.css */
-/* Workouts.module.css */
-
-/* .theWholePage{
-    background-color: black;
-} */
-
-
+/* contenu de body  */
 .workoutContainer {
-    /* Add styles for the container of workout images */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE);
-    gap: 20px;
-    flex-direction: column;
-    margin-left: 100px; 
-    margin-top: 200px;
-    justify-items: left;  }
-    
-  .picCont{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    padding: 20px;
-    gap: 16px;
-
-  }
-  .progress{
-    width: 100%;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    justify-content: left;
-    margin-top: 160px;
-   
+  /* Add styles for the container of workout images */
+  width: auto;
+  height: auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 5px;
+  background: transparent;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 200px;
+  justify-items: left;
 }
-.progressStyle {
-    position: relative;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    margin-left: 350px;
-    justify-content: flex-end; /* Align to the extreme right */
-    align-items: flex-end; /* Align to the top */
-    /* Add padding as needed */
+
+/* contenaire l'image et les description --------------------------------------------- */
+.picCont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 16px;
 }
-  
-  
 
-  
-.repCont{
-display: flex;
-flex-direction: column;
-height: auto;
-width: 300px;
-border: 1px solid #ccc;
-border-radius: 25px;
-
-
+.repCont {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
 }
 
 .repCont img {
-width: auto;
-height: 160px;
-border-radius: 25px 25px 0 0; /* Top-left, Top-right, Bottom-right, Bottom-left */
-
+  width: auto;
+  height: 220px;
+  border-radius: 25px 25px 0 0; /* Top-left, Top-right, Bottom-right, Bottom-left */
 }
 
-.exerciceNumb{
-justify-content: left;
-
-margin-left: 40px;
-font-size: 28px;
-font-weight: bold;
-color: aliceblue;
-padding: 10px;
+.exerciceNumb {
+  justify-content: left;
+  margin-left: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 10px;
 }
-.workoutsInfo{
-justify-content: left;
-margin-left: 40px;
-flex-direction: row;
-gap: 100px;
-padding: 15px;
-color: aliceblue;
+.workoutsInfo {
+  justify-content: left;
+  margin-left: 40px;
+  flex-direction: row;
+  gap: 100px;
+  padding: 15px;
+  color: aliceblue;
 }
 
+/* contenaire de le cercle de progress et ses frere ------------------------------------*/
+.progress {
+  width: auto; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  position: relative;
+  margin-top: 190px;
+  display: flex;
+  align-items: flex-end; /* Align to the bottom */
+  justify-content: center; /* Align to the left */
+  padding: 20px; /* Adjust padding as needed */
+  gap: 70%;
+}
 
-    
-    
-
+/* num de repetiotion et time needed to finsih them */
+.TimeAndRep {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.Time {
+  margin-left: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.Repitition {
+}
+.TimeAndRep img {
+  width: 90px;
+  height: 100px;
+}
 
 /* Add any other styles as needed */

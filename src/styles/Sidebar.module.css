@@ -1,12 +1,11 @@
 
 .sidebar {
-  width: auto;
+  width: 250px;
   height: auto;
   background-color: #ffffff;
   padding: 1rem;
   border-bottom-left-radius: 10px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  
   position: fixed;
   height: calc(100% - 60px);
   z-index: 1;
@@ -14,7 +13,7 @@
   left: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 10px;
-  margin-top: 95px;
+  margin-top: 75px;
   margin-left: 3px;
 }
 
