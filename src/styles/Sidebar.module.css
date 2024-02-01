@@ -1,0 +1,81 @@
+
+.sidebar {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-bottom-left-radius: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  
+  position: fixed;
+  height: calc(100% - 60px);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+  margin-top: 95px;
+  margin-left: 3px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+
+
+.age {
+  color: gray;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.detailsLabel {
+  color: aqua;
+  font-weight: bold;
+}
+
+.verticalLine {
+  width: 2px;
+  height: 40px;
+  background-color: #ccc;
+  margin: 0 1rem;
+}
+
+.tabs {
+  font-size: 120%;
+}
+
+.tabs div {
+  margin-top: 40px;
+}
+
+.valeur {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.tabs div a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.tabs div a:focus{
+color: red;
+text-decoration: none;
+
+}
+.tabs div a:hover{
+  color: red;
+  text-decoration: none;
+
+  }
